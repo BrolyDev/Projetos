@@ -1,0 +1,137 @@
+body {
+margin: 20px;
+border: 20px;
+
+}
+
+h1 {
+   font-family: monospace;
+   text-align: center;
+}
+
+.titulo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.ifor {
+   font-family: Arial;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   border-bottom: 5px solid black;
+}
+
+.foto {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+  img{
+   border-radius: 20px
+  }
+
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   
+   
+
+}
+
+.ficha {
+   font-family: Arial;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   border-bottom: 5px solid black;
+}
+
+.dimensões {
+   font-family: Arial;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   border-bottom: 5px solid black;
+}
+
+.pneus {
+
+   font-family: Arial;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   border-bottom: 5px solid black;
+}
+
+.direção {
+   font-family: Arial;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   border-bottom: 5px solid black;
+}
+
+.freios {
+   font-family: Arial;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   border-bottom: 5px solid black;
+}
+
+.autonomia {
+   font-family: Arial;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   border-bottom: 5px solid black;
+}
+
+.consumo {
+   font-family: Arial;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+} 
+.footer{
+display: flex;
+justify-content: center;
+text-align:center;
+font-family: Arial, Helvetica, sans-serif; 
+}
+
+.logo2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+  @media (max-width: 450px){
+   h1{
+      font-size: 50px;
+   }
+  }    
+
+
+
+
+
+      
+   
+
+   
