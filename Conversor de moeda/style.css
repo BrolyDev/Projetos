@@ -1,0 +1,111 @@
+body {
+    background-color: #756d6d;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 300px;
+    margin-left: 49em;
+    margin-bottom: 20px;
+    border-radius: 50px;   
+}
+
+section {
+display: flex;
+justify-content:center;
+flex-direction: column;
+height: 20em;
+
+}
+
+.input-simbolo {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 4px 8px;
+    width: fit-content;
+    margin: 0 auto 16px auto;
+}
+
+.input-simbolo span {
+    margin-right: 6px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.input-simbolo input {
+    border: none;
+    outline: none;
+    font-size: 1em;
+    width: 120px;
+}
+button {
+    width:120px;
+    font-size: 1em;
+    padding: 4px 8px;
+    border-radius:8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 0 auto 8px auto;
+    display: block;
+}
+.para {
+    background-color: #ccc;
+    width: 120px;
+    font-size: 1em;
+    border-radius: 8px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    margin: 0 auto 8px auto;
+    text-align: center;
+    display:block;
+}
+
+
+select {
+    width: 120px;
+    font-size: 1em;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 0 auto 8px auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        text-align: center;
+        font-size: 1.3em;
+    }
+    img {
+        display: block;
+        margin: auto;
+        max-width: 90vw;
+        border-radius: 30px;
+        
+    }
+    section {
+        padding: 8px;
+    }
+    .input-simbolo,
+    select,
+    button {
+        max-width: 100%;
+        font-size: 1em;
+    }
+}

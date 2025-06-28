@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor De Moeda</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>CONVERSOR DE MOEDA</h1>
+    <img src="imagem/gera uma imagem mostrando moedas de varios países.jpg" alt="moeda"/>
+    <main class="menu-principal">
+        <section>
+            <div class="input-simbolo">
+                <span id="simbolo-origem">R$</span>
+                <input id="valor" type="number" placeholder="Valor">
+            </div>
+            <select id="moeda-origem">
+                <option value="BRL">BRL - Real</option>
+                <option value="USD">$ - Dólar</option>
+                <option value="EUR">€ - Euro</option>
+                <option value="GBP">£ - Libra</option>
+                <option value="JPY">¥ - Iene</option>
+            </select>
+            <div class="para">
+            <span style="margin: 8px 0;">para</span>
+        </div>
+            <select id="moeda-destino">
+                <option value="BRL">BRL - Real</option>
+                <option value="USD">$ - Dólar</option>
+                <option value="EUR">€ - Euro</option>
+                <option value="GBP">£ - Libra</option>
+                <option value="JPY">¥ - Iene</option>
+            </select>
+            <button onclick="converterMoeda()">Converter</button>
+            <div id="resultado" style="margin-top:16px;font-weight:bold;"></div>
+        </section>
+    </main>
+    <footer>
+        <b>Feito pelo: Juan Ribeiro</b>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
