@@ -1,0 +1,65 @@
+h1 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+ display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    padding: 30px;
+    border-radius:10px;
+    box-shadow:0 0 10px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: blanchedalmond;
+    gap: 10px 20px;
+    
+}
+
+form input{
+    border-radius: 8px;
+    height: 20px;
+
+}
+
+select,option
+form{
+    border-radius: 8px;
+    height: 20px;
+    grid-template-rows: auto;
+    
+    
+}
+
+.banco-group {
+    display: flex;
+    gap: 10px;
+}
+
+.banco-group input,
+.banco-group select {
+    flex: 1;
+    height: 20px;
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 5px;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
